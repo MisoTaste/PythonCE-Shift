@@ -6,9 +6,22 @@
     $ pip install opencv-python
     拡張モジュール(extra)も必要な場合
     $ pip install opencv-contrib-python
-4,Tesseractは、Pythonのパッケージでないため、WindowsやLinuxでは、Programをインストールする。
+4,Tesseractのインストール
+    Pythonのパッケージでないため、Windowsではインストラーを利用
+    Linuxでは、それぞれのディストリビューションのパッケージを利用。
+    Widndowsの場合
   【Tesseract at UB Mannheim】
-  https://github.com/UB-Mannheim/tesseract/wiki
+    https://github.com/UB-Mannheim/tesseract/wiki
+
+    Additional script data(download) 設定
+    Choose Components」画面が表示されたところで、「Additional script data(download)」を展開。
+    「Japanese script」と「Japanese vertical script」にチェック。
+
+    Additional language data(download) を設定
+    「Additional language data(download)」を展開。
+    「Japanese」と「Japanese(Vertical)」にチェック。
+
+
   
 5,OCRツールTesseract install
     $ pip install pytesseract
