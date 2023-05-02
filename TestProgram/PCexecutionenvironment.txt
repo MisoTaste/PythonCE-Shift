@@ -1,0 +1,20 @@
+環境設定メモ；
+1,Python3 install
+2,pipのInstallとアップグレードをTerminalで実行する。
+    $ py -m pip install --upgrade pip
+3,OpenCV install(main/extra)
+    $ pip install opencv-python
+    拡張モジュール(extra)も必要な場合
+    $ pip install opencv-contrib-python
+4,Tesseractは、Pythonのパッケージでないため、WindowsやLinuxでは、Programをインストールする。
+  【Tesseract at UB Mannheim】
+  https://github.com/UB-Mannheim/tesseract/wiki
+  
+5,OCRツールTesseract install
+    $ pip install pytesseract
+6,PIL
+    PIL更新がされていない古いもの、Pillowが代替のライブラリー
+    ただし、pipに両方の同時インストールはできない。
+    $ pip list でインストール確認すること。
+
+    $ pip install pillow

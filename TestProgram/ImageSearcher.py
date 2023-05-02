@@ -3,23 +3,6 @@
 ターゲット画像のの中にテンプレート画像と一致する画像を検索する。
 ターゲット内の画像と一致した部分を赤線で囲む
 一致した部分をOCRで文字列に変換する。空白文字を削除してテキストに表示させる
-
-環境設定メモ；
-1,Python3 install
-2,pipのInstallとアップグレードをTerminalで実行する。
-    $ py -m pip install --upgrade pip
-3,OpenCV install(main/extra)
-    $ pip install opencv-python
-    拡張モジュール(extra)も必要な場合
-    $ pip install opencv-contrib-python
-4,OCRツールTesseract install
-    $ pip install pytesseract
-5,PIL
-    PIL更新がされていない古いもの、Pillowが代替のライブラリー
-    ただし、pipに両方の同時インストールはできない。
-    $ pip list でインストール確認すること。
-
-    $ pip install pillow
 '''
 
 import os
